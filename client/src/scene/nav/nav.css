@@ -1,0 +1,36 @@
+/* src/components/Navbar.css */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  /* background-color: var(--color-bg); */
+  color: #fff;
+  border-radius: 0 0 0.5rem 0.5rem;
+  border-bottom: 2px solid red;
+}
+
+.navbar-brand {
+  color: var(--color-sandybrown);
+}
+
+.navbar-nav {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-item {
+  display: inline;
+}
+
+.nav-link {
+  color: var(--color-sandybrown);
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.nav-link:hover {
+  color: #ddd;
+}

@@ -1,0 +1,61 @@
+.__carcontainer {
+  margin-top: 4.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.carselection {
+  text-align: left; /* Override the previous text-align: center */
+  color: var(--color-burntorange);
+  width: 40%;
+  padding: 2rem; /* Add some padding for better appearance */
+  border-radius: 10px; /* Rounded corners */
+  backdrop-filter: blur(0.8px); /* Blur effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  height: fit-content;
+  width: fit-content;
+  margin-left: 1rem;
+}
+.carselection h2 {
+  color: var(--color-darkorange);
+}
+.carselection span {
+  color: white;
+  margin-left: 0.5rem;
+}
+.carselected {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  margin-left: 4rem;
+  padding: 3rem;
+  width: 70%;
+  color: var(--color-darkorange);
+  text-align: center; /* Center text content */
+}
+.carselected img {
+  max-width: 500px;
+  max-height: 300px;
+}
+
+.carlist {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem;
+  gap: 1rem;
+}
+.cars img {
+  height: 100px;
+  width: auto;
+  max-width: 200px;
+}
+
+.cars {
+  border: 1px solid var(--color-burntorange);
+  border-radius: 1rem;
+  text-align: center;
+  color: var(--color-burntorange);
+}
