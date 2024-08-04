@@ -27,7 +27,7 @@ const Home = () => {
             Year: <span>2019</span>
           </h5>
           <h5>
-            Model: <span>Vios</span>
+            Model: <span>Toyota</span>
           </h5>
           <h5>
             Transmission: <span>Automatic</span>
